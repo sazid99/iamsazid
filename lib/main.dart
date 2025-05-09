@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      title: "Sazid Portfolio",
       theme: ThemeData.dark(),
       home: LandingPage(),
     );
